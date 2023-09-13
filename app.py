@@ -73,7 +73,7 @@ def preprocess_image(image_path):
     return img_array
 
 # Load the pre-trained model
-model = load_model('models/pneumonia_model.h5')
+model = load_model('pneumonia_model.h5')
 
 # Streamlit app
 st.title("Pneumonia Classification App")
